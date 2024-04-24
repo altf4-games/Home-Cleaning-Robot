@@ -55,25 +55,6 @@ void loop() {
         digitalWrite(motor2Pin2, HIGH);
         delay(autonomousDelay);
 
-        // Stop
-        digitalWrite(motor1Pin1, LOW); 
-        digitalWrite(motor1Pin2, LOW); 
-        digitalWrite(motor2Pin1, LOW);
-        digitalWrite(motor2Pin2, LOW);
-        delay(1000);
-
-        // Move backward
-        digitalWrite(motor1Pin1, LOW); 
-        digitalWrite(motor1Pin2, HIGH);
-        digitalWrite(motor2Pin1, HIGH);
-        digitalWrite(motor2Pin2, LOW);
-        delay(autonomousDelay);
-
-        // Stop
-        digitalWrite(motor1Pin1, LOW); 
-        digitalWrite(motor1Pin2, LOW); 
-        digitalWrite(motor2Pin1, LOW);
-        digitalWrite(motor2Pin2, LOW);
         delay(1000);
     } else {
         // Manual control mode
